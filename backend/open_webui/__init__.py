@@ -6,6 +6,8 @@ from pathlib import Path
 import typer
 import uvicorn
 
+import open_webui.env
+
 app = typer.Typer()
 
 KEY_FILE = Path.cwd() / ".webui_secret_key"
